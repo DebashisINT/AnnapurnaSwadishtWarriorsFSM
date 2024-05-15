@@ -1,0 +1,15 @@
+package com.breezefieldsalesannapurnaswadisht.features.survey.api
+
+import com.breezefieldsalesannapurnaswadisht.features.photoReg.api.GetUserListPhotoRegApi
+import com.breezefieldsalesannapurnaswadisht.features.photoReg.api.GetUserListPhotoRegRepository
+
+object SurveyDataProvider{
+
+    fun provideSurveyQ(): SurveyDataRepository {
+        return SurveyDataRepository(SurveyDataApi.create())
+    }
+
+    fun provideSurveyQMultiP(): SurveyDataRepository {
+        return SurveyDataRepository(SurveyDataApi.createImage())
+    }
+}

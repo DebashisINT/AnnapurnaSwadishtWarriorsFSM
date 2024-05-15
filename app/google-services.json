@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566934431226",
+    "project_id": "annapurna-swadisht",
+    "storage_bucket": "annapurna-swadisht.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566934431226:android:bb586d654c999c88fdb043",
+        "android_client_info": {
+          "package_name": "com.breezefieldsalesannapurnaswadisht"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCirtUFD1Xu-F4E48IYKrHX_GrE3DSq_Ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
